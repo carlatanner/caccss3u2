@@ -1,0 +1,26 @@
+*{
+    font-size: 1.3em;
+	text-indent:-0.1em;
+}
+.caja {
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    padding: 10px;
+    color: yellow;
+    height: 10vhw;
+    max-height:20vh
+   
+}
+.caja div {
+    width: 20vw;
+    height: 40vh;
+    background: red;
+    padding:5px;
+    margin: 5px;
+}
+
+.caja div:nth-child(2) {
+    color: white;
+    background:black;
+}
